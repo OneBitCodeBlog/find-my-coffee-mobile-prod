@@ -39,7 +39,7 @@ const Establishment = (props) => {
                 (establishment.photos) ?
                   <Image style={styles.photo}
                     source={
-                      { uri: `https://maps.googleapis.com/maps/api/place/photo?maxwidth=400&photoreference=${establishment.photos[0].photo_reference}&sensor=false&key=AIzaSyDQmMNwqU16V4KeKI-nkO4sqTXlvh9ukz0` }} alt="Store perfil" />
+                      { uri: `https://maps.googleapis.com/maps/api/place/photo?maxwidth=400&photoreference=${establishment.photos[0].photo_reference}&sensor=false&key=<sua-key>` }} alt="Store perfil" />
                   :
                   <Image style={styles.photo} source={require('../../images/no_photo.jpg')} />
               }
